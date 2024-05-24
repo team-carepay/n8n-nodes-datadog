@@ -43,9 +43,9 @@ export class LogToDatadog implements INodeType {
         type: 'string',
       },
       {
-        displayName: 'Log Level in Case the Condition Is Met',
+        displayName: 'Success Log Level',
         default: 'INFO',
-        description: 'Success log level',
+        description: 'Log level in case the condition is met',
         name: 'successLoglevel',
         options: [
           {
