@@ -5,7 +5,7 @@ export class DatadogApi implements ICredentialType {
   displayName = 'Datadog API';
   properties: INodeProperties[] = [
     {
-      displayName: 'DD-API-KEY',
+      displayName: 'apiKey',
       name: 'apiKey',
       type: 'string',
       typeOptions: {password: true},
