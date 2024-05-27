@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-datadog",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "n8n node for datadog logging",
   "keywords": [
     "n8n-community-node-package",
