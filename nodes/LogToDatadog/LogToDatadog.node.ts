@@ -80,7 +80,7 @@ export class LogToDatadog implements INodeType {
                 type: 'collection',
                 default: {
                     message: '',
-                    logLevel: 'INFO',
+                    logLevel: 'ERROR',
                 },
                 options: [{
                     displayName: 'Message',
