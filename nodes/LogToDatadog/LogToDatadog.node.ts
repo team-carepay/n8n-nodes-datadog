@@ -90,7 +90,7 @@ export class LogToDatadog implements INodeType {
                     type: 'string',
                 }, {
                     displayName: 'Log Level',
-                    default: 'INFO',
+                    default: 'ERROR',
                     description: 'Log level in case the condition is not met',
                     name: 'logLevel',
                     options: logOptions,
