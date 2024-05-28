@@ -141,14 +141,14 @@ export class LogToDatadog implements INodeType {
             const payload = {
                 '@timestamp': new Date().toISOString(),
                 '@version': 1,
-                ddsource: serviceName,
-                service: serviceName,
+                ddsource: serviceName.trim(),
+                service: serviceName.trim(),
                 host: host,
                 path: `/workflow/${workflowId}/executions/${executionId}`,
                 ddtags: tags,
                 message: condition ? successMessage : failureMessage,
                 dd: {
-                    service: serviceName,
+                    service: serviceName.trim(),
                     workflowId: workflowId,
                     executionId: executionId,
                 },
