@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/mdasberg/n8n-nodes-datadog/compare/v1.1.0...v1.1.1) (2024-05-28)
+
+
+### Bug Fixes
+
+* trim serviceName ([50c6074](https://github.com/mdasberg/n8n-nodes-datadog/commit/50c60742c6e72ef5d60f35507e4c2747676c5d4f))
+
 # [1.1.0](https://github.com/mdasberg/n8n-nodes-datadog/compare/v1.0.0...v1.1.0) (2024-05-28)
 
 
