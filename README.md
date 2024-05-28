@@ -1,6 +1,7 @@
 # n8n-nodes-datadog
 
-![n8n.io](https://n8n.io/img/n8n-logo.svg)
+<img src="https://n8n.io/images/nodes/n8n.svg" width="100" height="100"/>
+<img src="https://raw.githubusercontent.com/mdasberg/n8n-nodes-datadog/main/nodes/LogToDatadog/dd_logo_v_rgb.svg" width="100" height="100"/>
 
 A community node for integrating Datadog with n8n, the workflow automation tool. This node allows you to interact with Datadog's API to log messages from your n8n workflows.
 

@@ -127,9 +127,9 @@ export class LogToDatadog implements INodeType {
             const workflowId = this.getWorkflow().id as string;
             const executionId = this.getExecutionId() as string;
             const successMessage = this.getNodeParameter('success.message', index, '') as string;
-            const successLoglevel = this.getNodeParameter('success.loglevel', index, 'INFO') as string;
+            const successLoglevel = this.getNodeParameter('success.logLevel', index, '') as string;
             const failureMessage = this.getNodeParameter('failure.message', index, '') as string;
-            const failureLoglevel = this.getNodeParameter('failure.loglevel', index, 'ERROR') as string;
+            const failureLoglevel = this.getNodeParameter('failure.logLevel', index, '') as string;
             const condition = this.getNodeParameter('condition', index, false, {extractValue: true}) as boolean;
             const tags = this.getNodeParameter('tags', index, '') as string;
             const serviceName = this.getNodeParameter('serviceName', index, '') as string;
