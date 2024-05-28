@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/mdasberg/n8n-nodes-datadog/compare/v1.1.1...v1.1.2) (2024-05-28)
+
+
+### Bug Fixes
+
+* default failure level to error ([270ebe4](https://github.com/mdasberg/n8n-nodes-datadog/commit/270ebe42f5534d4db0ef43f2c8fe9c25c1911c9e))
+
 ## [1.1.1](https://github.com/mdasberg/n8n-nodes-datadog/compare/v1.1.0...v1.1.1) (2024-05-28)
 
 
