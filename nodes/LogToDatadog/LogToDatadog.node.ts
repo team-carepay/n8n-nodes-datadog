@@ -144,7 +144,7 @@ export class LogToDatadog implements INodeType {
                 ddsource: serviceName.trim(),
                 service: serviceName.trim(),
                 host: host,
-                path: `/workflow/${workflowId}/executions/${executionId}`,
+                path: `${host}/workflow/${workflowId}/executions/${executionId}`.replace(/(?<!https?:)\/\//g, '/'),
                 ddtags: tags,
                 message: condition ? successMessage : failureMessage,
                 dd: {
