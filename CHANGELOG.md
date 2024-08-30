@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/team-carepay/n8n-nodes-datadog/compare/v1.2.0...v1.3.0) (2024-08-30)
+
+
+### Features
+
+* migrate repository ([a18871e](https://github.com/team-carepay/n8n-nodes-datadog/commit/a18871ee2186e857d3434aa09002f40444bd0b27))
+
 # [1.2.0](https://github.com/team-carepay/n8n-nodes-datadog/compare/v1.1.2...v1.2.0) (2024-08-26)
 
 
