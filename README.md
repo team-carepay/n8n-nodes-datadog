@@ -1,7 +1,7 @@
 # n8n-nodes-datadog
 
 <img src="https://n8n.io/images/nodes/n8n.svg" width="100" height="100"/>
-<img src="https://raw.githubusercontent.com/mdasberg/n8n-nodes-datadog/main/nodes/LogToDatadog/dd_logo_v_rgb.svg" width="100" height="100"/>
+<img src="https://raw.githubusercontent.com/team-carepay/n8n-nodes-datadog/main/nodes/LogToDatadog/dd_logo_v_rgb.svg" width="100" height="100"/>
 
 A community node for integrating Datadog with n8n, the workflow automation tool. This node allows you to interact with Datadog's API to log messages from your n8n workflows.
 
@@ -38,4 +38,4 @@ Once the credentials are set up, you can use the `Log messages to Datadog` node 
 4. Execute Workflow: Run your workflow to interact with Datadog.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/mdasberg/n8n-nodes-datadog/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/team-carepay/n8n-nodes-datadog/blob/main/LICENSE.md) file for details.

@@ -7,14 +7,14 @@
     "datadog-logging"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/mdasberg/n8n-nodes-datadog#readme",
+  "homepage": "https://github.com/team-carepay/n8n-nodes-datadog#readme",
   "author": {
     "name": "Mischa Dasberg",
     "email": "mischa@dasberg.nl"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mdasberg/n8n-nodes-datadog.git"
+    "url": "git+https://github.com/team-carepay/n8n-nodes-datadog.git"
   },
   "main": "index.js",
   "scripts": {
