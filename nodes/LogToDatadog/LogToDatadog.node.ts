@@ -13,11 +13,11 @@ import {
     LOGLEVEL,
     MESSAGE,
     SERVICE_NAME,
+    SITE,
     SUCCESS,
     TAGS,
     WARN
 } from "./Datadog.operations";
-
 
 export class LogToDatadog implements INodeType {
     description: INodeTypeDescription = {
@@ -50,6 +50,7 @@ export class LogToDatadog implements INodeType {
         let item: INodeExecutionData;
 
         for (let index = 0; index < items.length; index++) {
+            const site = this.getNodeParameter(SITE, index, '') as string;
             const workflowId = this.getWorkflow().id as string;
             const executionId = this.getExecutionId() as string;
             const successMessage = this.getNodeParameter(`${SUCCESS}.${MESSAGE}`, index, '') as string;
@@ -88,7 +89,7 @@ export class LogToDatadog implements INodeType {
                 },
                 method: 'POST',
                 body: payload,
-                uri: `https://http-intake.logs.datadoghq.com/api/v2/logs`,
+                uri: `https://http-intake.logs.${site}/api/v2/logs`,
                 json: true,
             };
             await this.helpers.requestWithAuthentication.call(this, 'datadogApi', options);
